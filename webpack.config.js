@@ -73,4 +73,10 @@ Encore
     .enablePostCssLoader()
 ;
 
+if (Encore.isProduction()) {
+    // Note the '/build' at the end of the URL
+    Encore.setPublicPath('https://multistream-tools-assets.s3.amazonaws.com/build');
+    Encore.setManifestKeyPrefix('build/')
+}
+
 module.exports = Encore.getWebpackConfig();

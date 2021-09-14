@@ -1,0 +1,3 @@
+framework:
+    assets:
+        base_urls: 'https://multistream-tools-assets.s3.amazonaws.com'
