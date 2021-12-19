@@ -13,7 +13,7 @@
         "postcss-loader": "^6.1.1",
         "purgecss-webpack-plugin": "^4.0.3",
         "regenerator-runtime": "^0.13.2",
-        "stimulus": "^2.0.0",
+        "@hotwired/stimulus": "^3.0.0",
         "tailwindcss": "^2.2.19",
         "webpack-notifier": "^1.6.0"
     },
