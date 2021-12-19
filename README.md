@@ -37,5 +37,6 @@ symfony composer install
 symfony console d:m:m
 yarn install
 yarn watch
-symfony serve
+symfony server:ca:install
+symfony serve -d
 ```
